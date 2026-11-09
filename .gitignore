@@ -1,0 +1,40 @@
+# ===== 原始需求文档（本地留档，不上传）=====
+docs/
+
+# ===== 待上传 GitHub 的干净副本（自身是独立仓库）=====
+PhotoFeed-GitHub/
+
+# ===== 本地构建工具链（JDK / Android SDK / Gradle 缓存，体积巨大，不入库）=====
+toolchain/
+
+# ===== WorkBuddy 工作数据（本地私有）=====
+.workbuddy/
+
+# ===== 构建产物 =====
+apk/
+*.apk
+*.aab
+**/build/
+.gradle/
+app/build/
+
+# ===== 机器相关配置 =====
+local.properties
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# ===== 临时验证文件 =====
+pf_*.png
+pf_*.xml
+pf_*.py
+
+# ===== 签名文件（如后续更换正式签名，避免误传）=====
+*.jks
+*.keystore
+
+# ===== 日志 =====
+*.log
