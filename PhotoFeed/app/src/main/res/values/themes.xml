@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PhotoFeed" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey_100</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/grey_300</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/grey_900</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/grey_300</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.PhotoFeed.NoActionBar" parent="Theme.PhotoFeed">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.PhotoFeed.Sheet" parent="Theme.Material3.Dark.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/PhotoFeed.BottomSheet</item>
+        <item name="colorPrimary">@color/grey_100</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/grey_300</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/grey_300</item>
+        <item name="android:textColorHint">@color/grey_600</item>
+    </style>
+
+    <style name="PhotoFeed.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="backgroundTint">@color/grey_900</item>
+    </style>
+
+    <style name="PhotoFeed.TabText" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+</resources>

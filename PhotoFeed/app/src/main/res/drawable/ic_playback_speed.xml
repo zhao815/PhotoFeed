@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <!-- 仪表盘外弧 -->
+    <path
+        android:pathData="M3.5,15 A8.5,8.5 0 0 1 20.5,15"
+        android:strokeWidth="1.8"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+    <!-- 指针 -->
+    <path
+        android:pathData="M12,14.5 L16.6,8.6"
+        android:strokeWidth="1.8"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+    <!-- 中心轴 -->
+    <path
+        android:pathData="M11,14.5a1.1,1.1 0 1 0 2,0a1.1,1.1 0 1 0 -2,0"
+        android:fillColor="@android:color/white" />
+</vector>

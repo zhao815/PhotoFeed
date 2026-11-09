@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">刷相册</string>
+
+    <string name="tab_photo">照片</string>
+    <string name="tab_video">视频</string>
+    <string name="tab_motion">动图</string>
+
+    <string name="add_note">+ 备注</string>
+    <string name="note">备注</string>
+    <string name="like">喜欢</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="fullscreen">全屏</string>
+    <string name="fullscreen_watch">全屏观看</string>
+    <string name="fullscreen_exit">退出全屏</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="video_controls">视频播放控制：拖动进度条快进 / 快退，点击倍速调整播放速度</string>
+    <string name="zero_time">00:00</string>
+    <string name="speed_1x">1.0x</string>
+    <string name="play_failed">无法播放</string>
+    <string name="motion_unavailable">动态视频不在媒体库，可能已移入相册回收站，请恢复后再看</string>
+    <string name="long_photo_hint">长图 · 拖动查看 / 双指缩放 / 双击适应屏幕</string>
+    <string name="photo_zoom_hint">已放大 · 双指缩回或双击恢复原大小</string>
+    <string name="settings">设置</string>
+    <string name="media_preview">媒体预览</string>
+
+    <string name="empty_channel">这个频道还没有内容</string>
+
+    <string name="guide_title">刷相册</string>
+    <string name="guide_body">像刷短视频一样，上下滑动浏览本机里的照片、视频和动态照片。\n\n首次打开进入中间的「照片」频道；照片按原比例完整显示、不裁切，双指可放大查看、缩回或双击恢复原大小，长截图可拖动查看、双击适应屏幕；一轮刷完会自动重新随机排布，永远刷不到底；只有切到「视频」频道才会自动播放，默认有声音，横版视频下方有「全屏观看」；切到「动图」频道会自动循环播放苹果 Live Photo / 安卓动态照片，并保留原声；右上角删除即时生效，文件只是移入相册回收站，可随时恢复；设置里的「重新识别」在后台进行，只检查新增照片，不耽误你继续刷。\n\n本应用只申请「读取照片」和「读取视频」权限，不联网、不上传、不收集任何数据。所有数据只保存在你的手机里。</string>
+    <string name="guide_not_requested">本应用不申请：网络、位置、通讯录、短信、电话、相机、麦克风、已安装应用列表。</string>
+    <string name="guide_start">开始使用</string>
+    <string name="guide_denied">没有读取媒体的权限，就无法显示照片和视频。你可以随时在系统设置里重新授权，或点击下面的按钮再次申请。</string>
+    <string name="guide_retry">重新授权</string>
+    <string name="guide_open_settings">去设置</string>
+    <string name="partial_access_hint">当前仅能访问你选择的照片，点此重新选择</string>
+
+    <string name="note_title">备注</string>
+    <string name="note_hint">写点什么…</string>
+    <string name="save">保存</string>
+    <string name="clear">清空</string>
+    <string name="cancel">取消</string>
+
+    <string name="deleted">已移入相册回收站</string>
+    <string name="delete_failed">删除被系统拒绝</string>
+    <string name="no_app_for_share">没有可用的分享应用</string>
+
+    <string name="settings_title">设置</string>
+    <string name="recognize_motion">重新识别</string>
+    <string name="recognize_motion_running">正在后台识别…</string>
+    <string name="recognize_motion_done">识别完成：共 %1$d 个动态照片，本次新扫 %2$d 张、跳过 %3$d 张</string>
+    <string name="recognize_motion_desc">在后台扫描媒体库，识别苹果 Live Photo 与安卓动态照片，仅检查新增内容、不耽误你继续浏览。</string>
+
+    <string name="permission_section_title">本应用申请的权限</string>
+    <string name="permission_section_body">· 读取照片、读取视频：用于浏览相册（本地）</string>
+    <string name="permission_denied_section_title">本应用不申请</string>
+    <string name="permission_denied_section_body">网络、位置、通讯录、短信、电话、相机、麦克风、已安装应用列表。</string>
+    <string name="privacy_statement">所有数据仅保存在本机。</string>
+    <string name="about_title">关于</string>
+    <string name="about_body">刷相册是一个纯本地、无网络、无账号的相册浏览应用。\n\n仅申请「读取照片」与「读取视频」权限，用于浏览你手机里的相册；不含 INTERNET 权限，无法联网，也不会上传任何内容。\n\n所有浏览记录只保存在你的手机里。</string>
+</resources>

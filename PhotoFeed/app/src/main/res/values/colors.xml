@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_900">#FF1A1A1A</color>
+    <color name="grey_700">#FF4D4D4D</color>
+    <color name="grey_600">#FF666666</color>
+    <color name="grey_300">#FFB3B3B3</color>
+    <color name="grey_100">#FFF2F2F2</color>
+    <color name="like_red">#FFE05A5A</color>
+    <color name="delete_tint">#FFB3544E</color>
+    <color name="scrim">#99000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
