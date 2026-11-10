@@ -17,9 +17,8 @@
 
 ### 管理与记录
 - 删除：立即生效，移入系统相册回收站（可在相册恢复）
-- 笔记：给任意照片/视频写备注，本地保存
-- 分享：调用系统分享
 - 后台识别：进程级后台任务扫描动态照片，离开设置页仍继续，只增量扫新照片
+- 备注、喜欢、分享与导入/导出入口已在当前版本移除，界面不再提供，也不会向其他应用发送媒体内容
 
 ## 从源码构建
 
@@ -43,7 +42,7 @@ gradle assembleDebug     # 需 JDK 17、AGP 8.4.2、Gradle 8.7
 | 项目 | 要求 |
 |---|---|
 | 最低系统 | Android 10 (API 29) |
-| 已验证 | Android 11 (vivo V2123A)、Android 16 (vivo V2361A) |
+| 已验证 | Android 11 (API 30)、Android 16 (API 36) 真机 |
 | 权限 | 仅读取照片 / 读取视频（Android 13+ 支持部分授权） |
 
 ## 权限声明
@@ -67,15 +66,16 @@ gradle assembleDebug     # 需 JDK 17、AGP 8.4.2、Gradle 8.7
 │   └── …
 ├── 使用说明.md                  # 面向用户的使用说明
 ├── LICENSE                     # GPL-3.0 许可证全文
+├── NOTICE.md                   # 版权声明、第三方素材与依赖许可归属
 ├── build.ps1                   # 作者本机离线构建脚本（仅供参考）
 └── .gitignore
 ```
 
-更详细的功能说明与真机验证记录见 [PhotoFeed/README.md](PhotoFeed/README.md)，用户手册见 [使用说明.md](使用说明.md)。
+更详细的功能说明与构建说明见 [PhotoFeed/README.md](PhotoFeed/README.md)，用户手册见 [使用说明.md](使用说明.md)。
 
 ## License
 
-本项目基于 [GNU General Public License v3.0](LICENSE)（GPL-3.0）开源。
+本项目基于 [GNU General Public License v3.0](LICENSE)（GPL-3.0）开源，版权归 PhotoFeed 贡献者所有（见 [NOTICE.md](NOTICE.md)）。
 
 这意味着你可以自由地：
 
@@ -85,4 +85,4 @@ gradle assembleDebug     # 需 JDK 17、AGP 8.4.2、Gradle 8.7
 
 同时需要遵守：**分发修改后的版本时，必须同样以 GPL-3.0 开源并保留原作者版权声明**；本软件不提供任何担保。
 
-完整的法律条款见仓库根目录的 [LICENSE](LICENSE) 文件。
+完整的法律条款见仓库根目录的 [LICENSE](LICENSE) 文件；第三方矢量图标与依赖库的许可归属见 [NOTICE.md](NOTICE.md)。

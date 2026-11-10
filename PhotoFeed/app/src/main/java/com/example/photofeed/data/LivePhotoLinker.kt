@@ -15,7 +15,7 @@ import java.io.FileInputStream
  *   · 静帧 JPEG（相册里能看到的那个）
  *   · 短视频 MP4/MOV（带原声，通常被相册隐藏，不单独显示）
  * 两个文件的尾部都写了同一个内容 ID，例如：
- *   vivo{..."com.android.camera.livephoto":"6f6fe497823940a8af0cae0ee73c"...}
+ *   vivo{..."com.android.camera.livephoto":"[32 位十六进制内容 ID]"...}
  * 苹果原生导出则是在 XMP / QuickTime 元数据里写 ContentIdentifier(UUID)。
  * 文件名往往完全不同（微信导出会各自改名），所以「同名配对」找不到它们，
  * 必须按这个内容 ID 配对。
